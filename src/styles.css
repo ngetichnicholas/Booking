@@ -59,6 +59,9 @@ li a {
 h5 {
   font-weight: 100;
 }
+.text-dark {
+  color: #198754 !important;
+}
 #name {
   font-weight: 900;
 }
