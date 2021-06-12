@@ -1,9 +1,9 @@
-# QuotesRating
+# Holla-Booking
 ## Author
 Nicholas Ngetich
 ## Description
 This is a simple E-Commerce Angular application.
-![alt text]()
+![alt text](https://github.com/ngetichnicholas/Holla-Booking/blob/main/landing.png)
 ### Prerequisites
 You need to have git installed
 You can install it with the following command in your terminal
@@ -42,7 +42,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - HTML
 - CSS
 ### Live Site
-View [live](https://ngetichnicholas.github.io/Quotes-Rating/)
+View [live](https://ngetichnicholas.github.io/Holla-Booking/)
 ### License
 This project is under:  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](/LICENSE)  
