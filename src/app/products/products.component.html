@@ -1,9 +1,6 @@
 <div>
   <div *ngFor="let product of products let i= index" class="product-body">
     <h4>{{product.name}}</h4>
-    <h5>Review</h5>
-    <app-product-details *ngIf='product' bind-voting='product' (isRead)='productDelete($event,i)'>
-    </app-product-details>
-      by <span id="name">{{product.name}} </span>
+    <img src="{{product.image}}" alt="Product Image">
   </div>
 </div>

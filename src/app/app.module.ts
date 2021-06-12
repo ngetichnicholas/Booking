@@ -9,7 +9,6 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ProductsComponent } from './products/products.component';
-import { ProductDetailsComponent } from './product-details/product-details.component';
 
 
 @NgModule({
@@ -19,7 +18,6 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
     HomeComponent,
     NotFoundComponent,
     ProductsComponent,
-    ProductDetailsComponent,
   ],
   imports: [
     BrowserModule,
