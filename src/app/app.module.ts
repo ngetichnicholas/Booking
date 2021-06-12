@@ -9,6 +9,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ProductsComponent } from './products/products.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { ProductsComponent } from './products/products.component';
     HomeComponent,
     NotFoundComponent,
     ProductsComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
