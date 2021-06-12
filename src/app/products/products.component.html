@@ -2,5 +2,16 @@
   <div *ngFor="let product of products let i= index" class="product-body">
     <h4>{{product.name}}</h4>
     <img src="{{product.image}}" alt="Product Image">
+    <div class="row">
+      <div class="col-md-4">
+        <span>Price: {{product.price}}</span>
+      </div>
+      <div class="col-md-4">
+        <span>Add to Cart</span>
+      </div>
+      <div class="col-md-4">
+        <span>{{product.views}} Views </span>
+      </div>      
+    </div>
   </div>
 </div>
