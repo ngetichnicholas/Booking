@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { Observable, of } from 'rxjs';
 import { Product } from './core/product';
 import { PRODUCTS } from './mock-products';
 
@@ -12,4 +13,8 @@ export class ProductService {
   getProducts(): Product[] {
     return PRODUCTS;
   }
+  getProduct(id: number): Observable<Product | undefined> {
+    const product = PRODUCTS.find(product => product.id === id);
+    return of(product);
+ }
 }
