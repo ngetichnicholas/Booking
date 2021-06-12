@@ -7,9 +7,41 @@
   width: 25rem;
   height: 30rem;
 }
+.navbar {
+  background-color: #E1E1E1 !important;
+}
+.nav-link {
+  color: #2a9d8f !important;
+}
+.navbar-brand {
+  color: green !important;
+}
+h1 {
+  color: #e9c46a;
+}
+ul {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+}
+.cart {
+  background-color: green;
+  padding: 0.5rem;
+  color: white;
+}
+.price {
+  background-color: #2a9d8f;
+  padding: 0.5rem;
+}
+.views {
+  background-color: #e9c46a;
+  padding: 0.5rem;
+}
 .product-image {
   width: 25rem;
   height: 25rem;
+  margin-bottom: 1rem;
 }
 h5 {
   font-weight: 100;
