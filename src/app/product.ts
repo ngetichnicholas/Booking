@@ -1,10 +1,9 @@
-export class Products {
+export class Product {
   constructor(
+    public id:number,
     public name:string,
     public price:string,
-    public image:any,
+    public image:string,
     public views:number,
-    public cart:any,
-    public buy:any
   ){}
 }
