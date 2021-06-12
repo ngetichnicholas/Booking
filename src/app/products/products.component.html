@@ -1,11 +1,9 @@
 <div>
-  <div *ngFor="let quote of sortQuotes let i= index" class="quote-body">
-    <h4>{{quote.quoteTitle}}</h4>
-    <p appHighlight *ngIf="highestUpvote()===quote.upvote && quote.upvote>0">{{quote.quoteInfo}}</p>
-    <p  *ngIf="highestUpvote()!==quote.upvote || quote.upvote===0">{{quote.quoteInfo}}</p>
+  <div *ngFor="let product of products let i= index" class="product-body">
+    <h4>{{product.name}}</h4>
     <h5>Review</h5>
-    <app-quote-details *ngIf='quote' bind-voting='quote' (isRead)='quoteDelete($event,i)'>
-    </app-quote-details>
-      by <span id="name">{{quote.name}} </span>
+    <app-product-details *ngIf='product' bind-voting='product' (isRead)='productDelete($event,i)'>
+    </app-product-details>
+      by <span id="name">{{product.name}} </span>
   </div>
 </div>

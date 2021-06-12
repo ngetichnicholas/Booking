@@ -12,6 +12,18 @@ export class ProductsComponent implements OnInit {
     new Product(1,'Trousers','Ksh 600','assets/images/product1.jpg',25),
     new Product(1,'Trousers','Ksh 600','assets/images/product1.jpg',25),
     new Product(1,'Trousers','Ksh 600','assets/images/product1.jpg',25),
+    new Product(1,'Trousers','Ksh 600','assets/images/product1.jpg',25),
+    new Product(1,'Trousers','Ksh 600','assets/images/product1.jpg',25),
+    new Product(1,'Trousers','Ksh 600','assets/images/product1.jpg',25),
+    new Product(1,'Trousers','Ksh 600','assets/images/product1.jpg',25),
+    new Product(1,'Trousers','Ksh 600','assets/images/product1.jpg',25),
+    new Product(1,'Trousers','Ksh 600','assets/images/product1.jpg',25),
+    new Product(1,'Trousers','Ksh 600','assets/images/product1.jpg',25),
+    new Product(1,'Trousers','Ksh 600','assets/images/product1.jpg',25),
+    new Product(1,'Trousers','Ksh 600','assets/images/product1.jpg',25),
+    new Product(1,'Trousers','Ksh 600','assets/images/product1.jpg',25),
+    new Product(1,'Trousers','Ksh 600','assets/images/product1.jpg',25),
+    new Product(1,'Trousers','Ksh 600','assets/images/product1.jpg',25),
     new Product(1,'Trousers','Ksh 600','assets/images/product1.jpg',25)
 
   ]

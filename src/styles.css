@@ -1,49 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
-.banner-innerpage {
-  padding: 150px 0 100px;
-  background-size: cover;
-  background-position: center center;
+.product-body {
+  float: left;
+  margin:2rem 0 0 2rem;
+  padding:0.5rem;
+  background-color: white;
+  width: 25rem;
+  height: 22rem;
 }
-.banner-innerpage .title {
-  color: #ffffff;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 40px;
+h5 {
+  font-weight: 100;
 }
-.banner-innerpage .subtitle {
-  color: #ffffff;
+#name {
+  font-weight: 900;
 }
-.shop-listing .shop-hover {
-  position: relative;
+h4 {
+  color: #198754;
 }
-.shop-listing .shop-hover .card-img-overlay {
-  display: none;
-  background: rgba(255, 255, 255, 0.5);
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-.shop-listing .shop-hover:hover .card-img-overlay {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-.shop-listing .shop-hover .label {
-  padding: 5px 10px;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-/*******************
-shop table
-*******************/
-.shop-table td {
-  padding: 30px 0;
+h5 {
+  color: #198754;
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@media screen  and (min-width:0px) and (max-width: 500px) {
+  .product-body {
+    margin:2rem 0 0 0;
+    width: 100%;
+    height: auto;
+  }
+
+}
+@media screen  and (min-width:770px) and (max-width: 1000px) {
+  .product-body {
+    margin:2rem;
+    width: 20rem;
+    height: auto;
+    margin-left: 15%;
+  }
+}
