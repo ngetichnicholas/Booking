@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Product } from '../core/product';
+import { ProductService } from '../product.service';
 
 @Component({
   selector: 'app-products',
@@ -8,13 +9,16 @@ import { Product } from '../core/product';
 })
 export class ProductsComponent implements OnInit {
 
-  constructor() { }
+  products: Product[] = [];
 
-  @Input() product: Product | undefined;
-  imageUrl: string = "";
+  constructor(private productService: ProductService) {}
+
+  getProducts(): void {
+    this.products = this.productService.getProducts();
+  }
 
   ngOnInit() {
-   this.imageUrl = this.product?.imageUrls[0] ?? '';
+    this.getProducts();
   }
 
 }
